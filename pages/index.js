@@ -632,6 +632,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-tripleunit);
             padding-bottom: var(--dl-space-space-doubleunit);
             justify-content: center;
+            background-color: #ffffff;
           }
           .home-desktop-menu {
             width: 100%;
@@ -1200,9 +1201,6 @@ const Home = (props) => {
           .home-feature-card {
             width: 30%;
             display: flex;
-            padding: var(--dl-space-space-halfunit);
-            position: relative;
-            align-self: flex-start;
             align-items: center;
             padding-top: var(--dl-space-space-doubleunit);
             padding-left: var(--dl-space-space-doubleunit);
@@ -1211,8 +1209,8 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-doubleunit);
           }
           .home-image07 {
-            width: 267px;
-            height: 197px;
+            width: 273px;
+            height: 185px;
             object-fit: cover;
             margin-bottom: 20px;
           }
